@@ -3,7 +3,7 @@ const app = express();
 const { graphqlHTTP } = require('express-graphql');
 const dotenv = require('dotenv');
 
-const schema = require('./lib/back/typeDefinitions');
+const schema = require('./lib/back/schema');
 
 dotenv.config();
 

@@ -16,6 +16,7 @@ module.exports = {
   plugins: ['react', '@typescript-eslint'],
   rules: {
     'indent': 'off',
+    'arrow-parens': 'off',
     'comma-dangle': ['error', 'never'],
     'object-curly-spacing': ['error', 'always'],
     'no-unused-vars': [
