@@ -15,7 +15,7 @@
     "develop": "webpack-dev-server --mode development --config ./webpack/webpack.config.js --open",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest --config ./jest.config.js"
+    "test": "jest --config ./jest.config.js",
     "test:watch": "jest --config ./jest.config.js --watch"
   },
   "devDependencies": {
